@@ -20,36 +20,6 @@ const RsvpContent = () => {
     const name2 = searchParams.get('name2');
     const isSingleName = name1 && !name2;
     const [userid, setUserid] = useState('');
-    const [approveWedding, setApproveWedding] = useState(false)
-
-    const constructId = () => {
-        let newId = '';
-        if (name1 && name2) {
-            newId = `${name1}&${name2}`;
-        } else if (name1) {
-            newId = name1;
-        }
-        setUserid(newId);
-    };
-
-    useEffect(() => {
-        constructId();
-
-        const fetchData = async () => {
-            try {
-                const status = await getApproveStatus(userid);
-                // @ts-ignore
-                setApproveWedding(status);
-            } catch (error) {
-                console.error("Error fetching approve status:", error);
-            }
-        };
-
-        if (userid !== '') {
-            fetchData();
-        }
-
-    }, [userid]);
 
     return (
         <div id='rsvp' className='pt-[70px] pb-[70px] bg-rsvp w-full bg-[length:428px] flex flex-col items-center'>
