@@ -23,8 +23,8 @@ export const Map = ({
                         <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px]'>Место проведения</p>
                         <div className='flex max-w-[540px] pl-[20px] pr-[20px]'>
                             <div className='ml-[40px]'>
-                                <p className='text-[15px]'>Сосновый бор, гостиничный комплекс</p>
-                                <p className='text-[15px]'>Улица Любимова, 3, Иваново Летняя площадка</p>
+                                <p className='text-[16px]'>Сосновый бор, гостиничный комплекс</p>
+                                <p className='text-[16px]'>Улица Любимова, 3, Иваново Летняя площадка</p>
                             </div>
                         </div>
                     </div>

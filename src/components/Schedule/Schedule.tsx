@@ -2,7 +2,7 @@ import React from 'react';
 
 const Schedule = () => {
     return (
-        <div id='schedule' className='bg-schedule min-h-[400px] w-full bg-cover bg-center bg-no-repeat relative flex  text-brown'>
+        <div id='schedule' className='bg-schedule min-h-[300px] w-full bg-cover bg-center bg-no-repeat relative flex text-brown'>
             <div className='w-full h-full bg-whitealpha flex flex-col text-center items-center pb-[50px]'>
                 <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px]'>Свадебное расписание</p>
                 <div className='flex max-w-[540px] pl-[20px] pr-[20px] w-[330px] justify-between'>

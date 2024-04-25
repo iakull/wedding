@@ -16,7 +16,7 @@ const Welcome = () => {
                         <p className='animate-d absolute left-[25%] mobile-s:top-[23%] mobile-s2:top-[27%] mobile-s3:left-[20%] mobile-s:text-[35px] mobile-s3:text-[40px] text-center font-scriptorama text-[40px] flex flex-col '>Иван<span
                             className='text-[19px] pt-[10px] animate-d'>&</span>Анастасия
                         </p>
-                        <p className='animate-d absolute bottom-[20%] mb-[40px] flex flex-col font-comic-neue uppercase text-[10px] tracking-widest text-black'>Приглашаем
+                        <p className='animate-d absolute bottom-[20%] mb-[40px] flex flex-col font-comic-neue uppercase text-[12px] tracking-widest text-black'>Приглашаем
                             на свадьбу <span
                                 className='text-[40px] font-scriptorama lowercase text-black'>9 августа 2024</span>
                         </p>

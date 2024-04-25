@@ -34,7 +34,7 @@ const RsvpContent = () => {
                 <Image src={photo} alt='' width={440} height={380} className='rounded-[200px]' />
                 <p id='approve'
                     className='text-center font-comforta text-[18px] max-w-[408px] mt-[40px] mb-[40px] text-black'>Будем очень
-                    благодарны, если при выборе нарядов на наше торжество Вы придержитесь следующей цветовой гаммы</p>
+                    благодарны, если при выборе нарядов на наше торжество Вы придержитесь следующей цветовой гаммы*</p>
                 <div className="flex mb-[60px]">
                     <div className="w-[50px] h-[50px] bg-[#BEC3C6] rounded-[50%] mr-[10px]"></div>
                     <div className="w-[50px] h-[50px] bg-[#F2DDC6] rounded-[50%] mr-[10px]"></div>
@@ -43,6 +43,8 @@ const RsvpContent = () => {
                     <div className="w-[50px] h-[50px] bg-[#9ACEEB] rounded-[50%] mr-[10px]"></div>
                     <div className="w-[50px] h-[50px] bg-[#9FE2BF] rounded-[50%]"></div>
                 </div>
+                <p id='approve'
+                    className='text-center font-comforta text-[18px] max-w-[408px] mb-[40px] text-black'>Мужчины могут выбрать брюки или классический костюм, рубашка в светлых тонах</p>
                 <Box sx={{ width: "100%", backgroundColor: "white" }}>
                     <Form />
                 </Box>
