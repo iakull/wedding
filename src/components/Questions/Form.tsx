@@ -132,6 +132,7 @@ export const Form = ({
                                 Дополнительные пожелания (опционально)
                             </Typography>
                             <TextField
+                                {...methods.register("additional")}
                                 multiline
                                 rows={4}
                                 placeholder="Приду со своей едой, питьем и в добром расположении духа"
