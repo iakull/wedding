@@ -33,7 +33,7 @@ const RsvpContent = () => {
                 <p className='font-scriptorama text-brown text-[35px] mb-[20px]'>Ждём вас</p>
                 <Image src={photo} alt='' width={440} height={380} className='rounded-[200px]' />
                 <p id='approve'
-                    className='text-center font-comforta text-[18px] max-w-[408px] mt-[40px] mb-[40px]'>Будем очень
+                    className='text-center font-comforta text-[18px] max-w-[408px] mt-[40px] mb-[40px] text-black'>Будем очень
                     благодарны, если при выборе нарядов на наше торжество Вы придержитесь следующей цветовой гаммы</p>
                 <div className="flex mb-[60px]">
                     <div className="w-[50px] h-[50px] bg-[#BEC3C6] rounded-[50%] mr-[10px]"></div>
