@@ -72,7 +72,7 @@ export const Form = ({
         <FormProvider {...methods}>
             <form onSubmit={methods.handleSubmit(onSubmit)} id="formId">
                 <Section flexProps={{ ...flexProps, width: "100%", maxW: "100%", id: '' }}>
-                    <Typography variant="h5">Анкета гостя/гостей</Typography>
+                    <Typography variant="h5" style={{ color: 'black' }}>Анкета гостя/гостей</Typography>
                     <Flex flexDirection="column" w="100%" gap={3}>
                         <FormControl>
                             <Input required
@@ -81,7 +81,7 @@ export const Form = ({
                             />
                         </FormControl>
                         <FormControl required>
-                            <Typography variant="h6">
+                            <Typography variant="h6" style={{ color: 'black' }}>
                                 Присутствие
                             </Typography>
                             <Controller
@@ -100,7 +100,7 @@ export const Form = ({
                             />
                         </FormControl>
                         <FormControl>
-                            <Typography variant="h6">
+                            <Typography variant="h6" style={{ color: 'black' }}>
                                 Предпочтения по алкоголю
                             </Typography>
                             <Stack direction="column" gap={0}>
@@ -128,7 +128,7 @@ export const Form = ({
                             </Stack>
                         </FormControl> */}
                         <FormControl>
-                            <Typography variant="h6">
+                            <Typography variant="h6" style={{ color: 'black' }}>
                                 Дополнительные пожелания (опционально)
                             </Typography>
                             <TextField
