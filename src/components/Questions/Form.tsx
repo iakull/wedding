@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Section } from "../Section";
 import { Controller, FormProvider, useForm } from "react-hook-form";
-import { FormControl, Input, Checkbox, Stack, Radio, RadioGroup, FormControlLabel, Button, CircularProgress, TextField, Typography } from '@mui/material';
+import { FormControl, TextareaAutosize, Input, Checkbox, Stack, Radio, RadioGroup, FormControlLabel, Button, CircularProgress, TextField, Typography } from '@mui/material';
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
@@ -110,7 +110,7 @@ export const Form = ({
                                             {...methods.register("alco")}
                                             value={type}
                                         />
-                                        <label>{type}</label>
+                                        <label style={{ color: 'black' }}>{type}</label>
                                     </div>
                                 ))}
                             </Stack>
@@ -132,8 +132,14 @@ export const Form = ({
                                 Дополнительные пожелания (опционально)
                             </Typography>
                             <TextField
-                                {...methods.register("additional")}
+                                multiline
+                                rows={4}
                                 placeholder="Приду со своей едой, питьем и в добром расположении духа"
+                                InputProps={{
+                                    style: {
+                                        resize: 'none',
+                                    },
+                                }}
                             />
                         </FormControl>
                         <Button type="submit" variant="contained" fullWidth disabled={isSending}>

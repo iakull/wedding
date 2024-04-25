@@ -1,8 +1,6 @@
 "use client"
 import {
-    Heading,
     Grid,
-    Text,
     FlexProps,
     Flex
 } from "@chakra-ui/react";
@@ -19,10 +17,8 @@ export const Map = ({
 }) => {
     return (
         <Section flexProps={flexProps}>
-
-
             <Grid gridTemplateRows="auto 300px" w="100%" h="100%" gap={2}>
-                <div id='schedule' className='bg-schedule w-full bg-cover bg-center bg-no-repeat relative flex  text-brown'>
+                <div id='schedule' className='bg-schedule w-full bg-cover bg-center bg-no-repeat relative flex text-brown'>
                     <div className='w-full h-full bg-whitealpha flex flex-col text-center items-center pb-[50px]'>
                         <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px]'>Место проведения</p>
                         <div className='flex max-w-[540px] pl-[20px] pr-[20px]'>
