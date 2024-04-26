@@ -45,6 +45,9 @@ const RsvpContent = () => {
                 </div>
                 <p id='approve'
                     className='text-center font-comforta text-[18px] max-w-[408px] mb-[40px] text-black'>Мужчины могут выбрать брюки или классический костюм, рубашка в светлых тонах</p>
+                <Box sx={{ width: "100%", backgroundColor: "white" }}>
+                    <Form />
+                </Box>
             </div>
         </div>
     );
