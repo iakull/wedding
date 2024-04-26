@@ -1,9 +1,8 @@
 'use client'
 import React, { Suspense, useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
 import Image from "next/image";
 import photo from "../../../public/img/00.jpg";
-import { Form } from "@/components/Questions/Form";
+import { Form } from "@/components/Form/Form";
 import { Box } from "@mui/material";
 
 const Rsvp = () => {
@@ -15,11 +14,6 @@ const Rsvp = () => {
 };
 
 const RsvpContent = () => {
-    const searchParams = useSearchParams();
-    const name1 = searchParams.get('name1');
-    const name2 = searchParams.get('name2');
-    const isSingleName = name1 && !name2;
-    const [userid, setUserid] = useState('');
 
     return (
         <div id='rsvp' className='pt-[70px] pb-[70px] bg-rsvp w-full bg-[length:428px] flex flex-col items-center'>
