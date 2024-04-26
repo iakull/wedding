@@ -68,7 +68,7 @@ export const Form = ({
             });
     };
     return (
-        <div className='rounded-[20px] p-[30px] w-full text-brown' >
+        <div id='form' className='rounded-[20px] p-[30px] w-full text-brown' >
             <FormProvider {...methods}>
                 <form onSubmit={methods.handleSubmit(onSubmit)} id="formId">
                     <Section flexProps={{ ...flexProps, width: "100%", maxW: "100%", id: '' }}>

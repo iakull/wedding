@@ -37,9 +37,7 @@ const config: Config = {
                 "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                 'welcome': "url('/img/welcome.png')",
                 'rsvp': "url('/img/rsvp.png')",
-                'schedule': "url('/img/schedule.png')",
-                'hands': "url('/img/hands.png')",
-                'galka': "url('/img/galka.png')"
+                'schedule': "url('/img/schedule.png')"
             }, colors: {
                 brown: "rgb(89, 78, 66)", whitealpha: "rgba(255, 255, 255, 0.7)", lightbrown: "rgb(120, 107, 102)", marine: "rgba(220, 236, 245, 0.722)", blackbrown:"rgba(89, 78, 66, 0.37)"
             },
