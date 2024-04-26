@@ -89,12 +89,19 @@ export const Form = ({
                                 control={methods.control}
                                 render={({ field: { onChange, value } }) => (
                                     <RadioGroup onChange={onChange} value={value}>
-                                        <FormControlLabel style={{ color: 'black' }} value="Один" required sx={{
+                                        <FormControlLabel value="Один" required sx={{
                                             '& .MuiFormControlLabel-asterisk': {
                                                 display: 'none',
                                             },
+                                            '& .MuiFormControlLabel-label': {
+                                                color: 'black',
+                                            },
                                         }} control={<Radio />} label="Один" />
-                                        <FormControlLabel style={{ color: 'black' }} value="Парой" control={<Radio />} label="Парой" />
+                                        <FormControlLabel sx={{
+                                            '& .MuiFormControlLabel-label': {
+                                                color: 'black',
+                                            },
+                                        }} value="Парой" control={<Radio />} label="Парой" />
                                     </RadioGroup>
                                 )}
                             />
