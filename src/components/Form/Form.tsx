@@ -73,6 +73,9 @@ export const Form = ({
                 <form onSubmit={methods.handleSubmit(onSubmit)} id="formId">
                     <Section flexProps={{ ...flexProps, width: "100%", maxW: "100%", id: '' }}>
                         <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px] text-black' style={{ color: 'black' }}>Анкета гостей</p>
+                        <Typography variant="h6" className='text-[30px] font-scriptorama mb-[60px] pt-[50px]' style={{ color: 'black' }}>
+                            Анкета гостей
+                        </Typography>
                         <Flex flexDirection="column" w="100%" gap={3}>
                             <FormControl>
                                 <Input required
