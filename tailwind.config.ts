@@ -39,7 +39,7 @@ const config: Config = {
                 'rsvp': "url('/img/rsvp.png')",
                 'schedule': "url('/img/schedule.png')"
             }, colors: {
-                brown: "rgb(89, 78, 66)", whitealpha: "rgba(255, 255, 255, 0.7)", lightbrown: "rgb(120, 107, 102)", marine: "rgba(220, 236, 245, 0.722)", blackbrown:"rgba(89, 78, 66, 0.37)"
+                brown: "rgb(89, 78, 66)", whitealpha: "rgba(255, 255, 255, 0.85)", lightbrown: "rgb(120, 107, 102)", marine: "rgba(220, 236, 245, 0.722)", blackbrown:"rgba(89, 78, 66, 0.37)"
             },
         },
     },

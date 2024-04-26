@@ -17,7 +17,7 @@ const RsvpContent = () => {
 
     return (
         <div id='rsvp' className='pt-[70px] pb-[70px] bg-rsvp w-full bg-[length:428px] flex flex-col items-center'>
-            <div className='flex flex-col items-center max-w-[600px] bg-whitealpha p-[10px]'>
+            <div className='flex flex-col items-center max-w-[660px] bg-whitealpha p-[10px] rounded-[30px]'>
                 <p className='font-comforta text-[27px] text-center mb-[20px] text-black'>
                     Дорогие родные, близкие и друзья!
                 </p>
