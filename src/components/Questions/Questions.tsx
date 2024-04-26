@@ -6,7 +6,7 @@ interface QuestionsProps {
 }
 const Questions: React.FC<QuestionsProps> = ({ userId }) => {
     return (
-        <div className='bg-[#417e77] rounded-[20px] p-[30px] w-full' >
+        <div className='bg-[#417e77] rounded-[20px] p-[30px] w-full text-brown' >
             <Form />
         </div>
     );
