@@ -41,7 +41,6 @@ export const Form = ({
         defaultValues: {
             name: "",
             visit: "Да",
-            transfer: "Нет",
             alco: [],
             food: [],
             additional: "",
@@ -73,7 +72,7 @@ export const Form = ({
             <FormProvider {...methods}>
                 <form onSubmit={methods.handleSubmit(onSubmit)} id="formId">
                     <Section flexProps={{ ...flexProps, width: "100%", maxW: "100%", id: '' }}>
-                        <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px] text-brown'>Анкета гостей</p>
+                        <p className='text-[30px] font-scriptorama mb-[60px] pt-[50px]'>Анкета гостей</p>
                         <Flex flexDirection="column" w="100%" gap={3}>
                             <FormControl>
                                 <Input required
@@ -134,7 +133,7 @@ export const Form = ({
                                     </Checkbox>
                                 ))}
                             </Stack>
-                        </FormControl> */}
+                            </FormControl> */}
                             <FormControl>
                                 <Typography variant="h6" style={{ color: 'black' }}>
                                     Дополнительные пожелания (опционально)
